@@ -1,0 +1,19 @@
+{
+  "name": "customgutenbergblocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@wordpress/scripts": "30.26.0"
+  },
+  "scripts": {
+    "new:block": "node scripts/new-block.mjs",
+    "build": "wp-scripts build --blocks-manifest",
+    "start": "wp-scripts start --blocks-manifest",
+    "start:hot": "wp-scripts start --blocks-manifest --hot",
+    "manifest": "wp-scripts build-blocks-manifest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
