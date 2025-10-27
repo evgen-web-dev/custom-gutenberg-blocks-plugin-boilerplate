@@ -15,7 +15,7 @@ A tiny setup for building **multiple Gutenberg blocks** in **one plugin** with a
 | Script          | Purpose                                                                                                                                            |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **`new:block`** | Runs the Node helper (`scripts/new-block.mjs`) to scaffold a new block interactively using `@wordpress/create-block` with your namespace and slug. |
-| **`build`**     | Compiles all blocks from `src/` into `build/<namespace>/<slug>/`, generating JS, CSS, and `.asset.php` files. Also updates the blocks manifest.    |
+| **`build`**     | Compiles all blocks from `src/` into `build/<slug>/`, generating JS, CSS, and `.asset.php` files. Also updates the blocks manifest.    |
 | **`start`**     | Runs the same build pipeline in **watch** mode for local development.                                                                              |
 | **`start:hot`** | Starts the dev server with **Hot Module Reloading (HMR)** for instant updates inside the block editor.                                             |
 | **`manifest`**  | Regenerates the `blocks-manifest.php` file for WordPress 6.7 / 6.8 optimized block registration.                                                   |
